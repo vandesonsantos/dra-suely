@@ -67,8 +67,7 @@
 
 /* CONTEÚDO PRINCIPAL-PROCEDIMENTOS */
 .conteudo-principal .procedimentos{
-    background-color: darkcyan;
-    height: 700px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +85,23 @@
 }
 
 .conteudo-principal .procedimentos .procedimento1{
-    background-image: url('../imagens/capa.jpg');
+    background-image: url('../imagens/microcorrentes-para-rosto.jpg');
+}
+
+.conteudo-principal .procedimentos .procedimento2{
+    background-image: url('../imagens/Intradermoterapia.jpg');
+}
+
+.conteudo-principal .procedimentos .procedimento3{
+    background-image: url('../imagens/corrente-russa.jpg');
+}
+
+.conteudo-principal .procedimentos .procedimento4{
+    background-image: url('../imagens/peeling-diamante.jpg');
+}
+
+.conteudo-principal .procedimentos .procedimento4{
+    background-image: url('../imagens/massagem-modeladora.jpg');
 }
 
 .conteudo-principal .procedimentos .seta{
