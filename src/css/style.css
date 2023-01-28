@@ -35,6 +35,7 @@
 .cabecalho .navegacao .menu .item a:hover{
     background-color: #D8115A8E;
     color: #ffffffff;
+    border-radius: 5px;
 }
 
 @media(max-width: 650px){
