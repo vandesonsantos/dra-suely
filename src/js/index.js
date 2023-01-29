@@ -10,7 +10,7 @@ function esconderImagens(){
 }
 
 function mostrarImagens(){
-    imagemProcedimento[imagemAtual].classlist.add('mostrar');
+    imagemProcedimento[imagemAtual].classList.add('mostrar');
 }
 
 setaAvancar.addEventListener('click', function(){
