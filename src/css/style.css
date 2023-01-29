@@ -183,3 +183,9 @@
     text-align: center;
     margin: 10px;
 }
+
+@media(max-width: 500px){
+    .rodape{
+        padding: 50px;
+    }
+}
