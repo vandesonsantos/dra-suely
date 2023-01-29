@@ -148,6 +148,7 @@
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding: 50px 0 40px 0;
+    font-size: 14px;
 }
 
 .rodape .navegacao{
@@ -173,11 +174,11 @@
     transition: 0.3s ease-in-out;
 }
 
-.rodape .redes-sociais a:hover {
+.rodape .redes-sociais a:hover{
     background-color: #FFBC42;
 }
 
-.rodape .copyright {
+.rodape .copyright{
     padding-top: 50px;
     text-align: center;
     margin: 10px;
