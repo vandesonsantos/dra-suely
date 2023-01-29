@@ -34,15 +34,13 @@
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 500;
     padding: 5px;
     transition: 0.4s all ease-in-out
 }
 
 .cabecalho .navegacao .menu .item a:hover{
-    background-color: #ffbd424d;
-    color: #ffffffff;
-    border-radius: 4px;
+    color: #D81159;
 }
 
 @media(max-width: 650px){
