@@ -82,6 +82,9 @@
     height: 100%;
     position: absolute;
     filter: brightness(70%);
+    
+    opacity: 0;
+    transition: 0.3s ease-in-out;
 }
 
 .conteudo-principal .procedimentos .procedimento1{
@@ -100,7 +103,7 @@
     background-image: url('../imagens/peeling-diamante.jpg');
 }
 
-.conteudo-principal .procedimentos .procedimento4{
+.conteudo-principal .procedimentos .procedimento5{
     background-image: url('../imagens/massagem-modeladora.jpg');
 }
 

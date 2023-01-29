@@ -1,7 +1,7 @@
 const imagemProcedimento = document.querySelectorAll('.imagem-procedimento');
 const setaAvancar = document.getElementById('btn-avancar');
 const setaVoltar = document.getElementById('btn-voltar');
-let imgemAtual = 0;
+let imagemAtual = 0;
 
 function esconderImagens(){
     imagemProcedimento.forEach(imagem => {
@@ -19,7 +19,7 @@ setaAvancar.addEventListener('click', function(){
         return;
     }
 
-    imgemAtual++;
+    imagemAtual++;
     
     esconderImagens()
     mostrarImagens()
