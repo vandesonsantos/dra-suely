@@ -1,24 +1,23 @@
-@charset "UTF-08";
-
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #000;
 }
 
-img {
+img{
     max-width: 100%;
 }
 
-a {
+a{
     text-decoration: none;
 }
 
-ul {
+ul{
     list-style: none;
 }
 
-html {
+html{
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
