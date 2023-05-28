@@ -43,25 +43,6 @@
     color: #D81159;
 }
 
-@media(max-width: 650px){
-    .cabecalho {
-        justify-content: center;
-    }
-
-    .cabecalho .navegacao{
-        margin-top: 15px;
-    }
-}
-
-@media(max-width: 400px){
-    .cabecalho {
-        justify-content: center;
-    }
-
-    .cabecalho .navegacao .menu .item a{
-        font-size: calc(0.7em + 1vw);
-    }
-}
 
 /* CONTEÚDO PRINCIPAL-PROCEDIMENTOS */
 .conteudo-principal .procedimentos{
@@ -202,10 +183,4 @@
     padding-top: 50px;
     text-align: center;
     margin: 10px;
-}
-
-@media(max-width: 500px){
-    .rodape{
-        padding: 50px;
-    }
 }
