@@ -1,0 +1,35 @@
+.cabecalho{
+    background-color: #8F2D56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.cabecalho .logo{
+    margin-left: 30px;
+}
+
+.cabecalho .navegacao .menu{
+    display: flex;
+}
+
+.cabecalho .navegacao .menu .item{
+    margin: 8px;
+}
+
+.cabecalho .navegacao .menu .item a{
+    color: #FFBC42;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
+    transition: 0.4s all ease-in-out
+}
+
+.cabecalho .navegacao .menu .item a:hover{
+    color: #D81159;
+}
